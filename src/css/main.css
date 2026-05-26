@@ -62,3 +62,40 @@ background: #e59d00;
 font-size: 32px;
 }    
 }
+/* From Rust to Power */
+.from-wrapper{
+    background-image: url("/img/from/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 50px;
+        width: 357px;
+        height: 497px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px 27px;
+}
+.from-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media only screen and (min-width: 1440px) {
+.from-container{
+    padding-top: 116px;
+}
+.from-wrapper {
+    background-image: url("/img/from/desk.png");
+width: 1176px;
+    height: 588px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 190px 60px 195px;
+}
+
+.from-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
