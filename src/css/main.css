@@ -92,10 +92,130 @@ width: 1176px;
     margin-right: auto;
     padding: 60px 190px 60px 195px;
 }
+}
+/* How the Shipyard Works */
+.arrow{
+ stroke: #fff;   
+}
+.how-next{
+    transform: rotate(180deg);
+}
+.how-container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.how-swiper .swiper-slide{
+border: 1px solid #e59d00;
+padding: 1px;
+border-radius: 40px;
+    width: 274px;
+    height: 391px;
+}
+.how-img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 
-.from-text {
+}
+.how-slide-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #e59d00;
+}
+.how-slide-text{
+    padding: 0 12px 20px;
+    font-size: 12px;
+        text-align: center;
+}
+.swiper-controls {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    gap: 4px;
+}
+
+.how-prev,
+.how-next {
+    width: 29px !important;
+    height: 29px !important;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how-prev:hover,
+.how-next:hover{
+background-color: #e59d00;
+border: inherit;
+
+}
+.how-prev:hover .arrow,
+.how-next:hover .arrow {
+
+    stroke: #000;
+}
+.swiper-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-pagination {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 64px !important;
+
+}
+
+.how-pagination .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+}
+
+.how-pagination .swiper-pagination-bullet-active {
+    background: #fff;
+    width: 6px;
+    height: 6px;
+}
+@media only screen and (min-width: 1440px) {
+  .swiper-controls{
+    display: none;
+  }
+.how-swiper .swiper-wrapper{
+    justify-content: center;
     gap: 20px;
+}
+.how-swiper .swiper-slide{
+width: 274px;
+    height: 438px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.how-slide-title{
+    font-size: 24px;
+}
+.how-slide-text{
+    font-size: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 }
