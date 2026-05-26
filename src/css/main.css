@@ -219,3 +219,59 @@ align-items: center;
     padding-right: 4px;
 }
 }
+/* Idle Progress with Real Weight */
+.idle-text-wrapper{
+    display: flex;
+    flex-direction: column;
+width: 282px;
+gap: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+.idle-list-title{
+    margin-top: 20px;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #e59d00;
+        margin-bottom: 30px;
+}
+.idle-list{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.idle-item{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.idle-img{
+width: 53px;
+    height: 47px;
+}
+@media only screen and (min-width: 1440px) {
+.idle-text-wrapper{
+width: 690px;
+font-size: 20px;
+}
+.idle-list-title{
+    margin-top: 50px;
+font-size: 34px;
+}
+.idle-list{
+width: 536px;
+margin-left: auto;
+margin-right: auto;
+    gap: 10px;
+}
+.idle-item{
+font-size: 20px;
+    gap: 24px;
+}
+.idle-img{
+width: 75px;
+    height: 67px;
+}    
+}
